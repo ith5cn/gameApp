@@ -1,0 +1,21 @@
+<!--游戏推荐列表开始-->
+<section class="game-list">
+	<div class="game-sub">
+		<a ui-sref="hotlist">热门</a>
+		<a ui-sref="newlist">新上架</a>
+		<a ui-sref="newslist">资讯</a>
+		<a ui-sref="newwlk" id="in">新开服</a>
+	</div>
+	<div class="game-wlk"">
+		<ul>
+			<li ng-repeat="item in newwlklist" ui-sref="gameconnews({id:item.id})">
+				<img ng-src="{{item.gameIcon}}" class="game-list-icon">
+				<p class="game-wlk-gamename" ng-bind="item.gameName"></p>
+				<p class="game-wlk-des"><span ng-bind="item.wlkNum"></span>服 <span ng-bind="item.wlkName"></span></p>
+				<p class="game-wlk-time" ng-bind="item.wlkTime">刚刚</p>
+				<a class="startgame">进入</a>
+			</li>
+		</ul>
+	</div>
+</section>
+<!--游戏推荐列表结束-->

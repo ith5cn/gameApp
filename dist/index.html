@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>雷神互娱游戏</title>
+	<script>
+			var dpr = 1 / window.devicePixelRatio;
+			document.write('<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale='+dpr+',minimum-scale='+dpr+',maximum-scale='+dpr+'" />')
+			var fz = document.documentElement.clientWidth / 10;
+			document.getElementsByTagName('html')[0].style.fontSize = fz + 'px';
+	</script>
+</head>
+<body>
+	<div ui-view></div> <!--指令召唤-->
+	
+	<script src="vendor/angular/angular.min.js"></script>
+	<!--引入ui-router路由模块-->
+	<script src="vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<!-- 引入配置JS -->
+	<script src="js/index.js"></script>  
+	<link href="./css/index.css" rel="stylesheet">
+</body>
+</html>

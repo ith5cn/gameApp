@@ -1,0 +1,11 @@
+<div class="history">
+	<div class="history-title">最近在玩</div>
+	<div class="history-con">
+		<div id="history-content">
+			<a ng-repeat="item in histroylist" href="{{item.gameHref}}">
+				<img class="game-icon" ng-src="{{item.gameIcon}}" alt="{{item.gameName}}">
+				<p ng-bind="item.gameName"></p>
+			</a>
+		</div>
+	</div>
+</div>

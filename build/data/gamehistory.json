@@ -1,0 +1,13 @@
+[{
+	"gameId":"1",
+	"gameType":"经营策略",
+	"gameName":"择仙记",
+	"gameIcon":"../image/2.png",
+	"gameHref":"https://baidu.com"
+},{
+	"gameId":"2",
+	"gameType":"经营策略",
+	"gameName":"超级战争",
+	"gameIcon":"../image/3.png",
+	"gameHref":"https://taobao.com"
+}]

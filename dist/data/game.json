@@ -1,0 +1,56 @@
+[{
+	"gameId":"1",
+	"gameName":"择仙记",
+	"gameIcon":"../image/2.png",
+	"gameDespH":"让我们一起回到武侠开始的地方",
+	"gameDesp":"真3D全视角再现大明醉美江湖",
+	"gameType":"角色扮演",
+	"gameTypeId":"1",
+	"gameState":"hot",
+	"gamewlkTime":"刚刚",
+	"gameHref":"https://baidu.com"
+},{
+	"gameId":"2",
+	"gameName":"超级战争",
+	"gameIcon":"../image/3.png",
+	"gameDespH":"模拟策略战争游戏,还原二战历史战场",
+	"gameDesp":"一款经典的二战策略坦克手游",
+	"gameType":"经营策略",
+	"gameTypeId":"2",
+	"gameState":"hot",
+	"gamewlkTime":"刚刚",
+	"gameHref":"https://baidu.com"
+},{
+	"gameId":"3",
+	"gameName":"二战前线",
+	"gameIcon":"../image/4.png",
+	"gameDespH":"全民最强军事战争策略手游",
+	"gameDesp":"游戏画面逼真,正式还原二战场景,经典SLG+即时战略玩法",
+	"gameType":"经营策略",
+	"gameTypeId":"2",
+	"gameState":"wlk",
+	"gamewlkTime":"一个小时前",
+	"gameHref":"https://baidu.com"
+},{
+	"gameId":"4",
+	"gameName":"全名公敌",
+	"gameIcon":"../image/4.png",
+	"gameDespH":"全民最强军事战争策略手游",
+	"gameDesp":"游戏画面逼真,正式还原二战场景,经典SLG+即时战略玩法",
+	"gameType":"经营策略",
+	"gameTypeId":"2",
+	"gameState":"new",
+	"gamewlkTime":"一个小时前",
+	"gameHref":"https://baidu.com"
+},{
+	"gameId":"5",
+	"gameName":"剑御乾坤",
+	"gameIcon":"../image/2.png",
+	"gameDespH":"让我们一起回到武侠开始的地方",
+	"gameDesp":"真3D全视角再现大明醉美江湖",
+	"gameType":"角色扮演",
+	"gameTypeId":"1",
+	"gameState":"new",
+	"gamewlkTime":"刚刚",
+	"gameHref":"https://baidu.com"
+}]

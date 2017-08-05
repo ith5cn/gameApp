@@ -1,0 +1,10 @@
+<div class="giftlist" ng-controller="giftlistCtrl">
+	<div class="gamegift" ng-repeat="item in list" ui-sref="gamegiftcon({id:item.id})">
+		<img ng-src="{{item.gameIcon}}" class="game-icon">
+		<div class="gamegiftdesp">
+			<p class="gamename" ng-bind="item.gameName"></p>
+			<p class="gamegiftname" ng-bind="item.gameGiftName"></p>
+		</div>
+		<a class="getgamegift">领取</a>
+	</div>
+</div>

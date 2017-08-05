@@ -1,0 +1,19 @@
+<!--游戏推荐列表开始-->
+<section class="game-list">
+	<div class="game-sub">
+		<a ui-sref="hotlist">热门</a>
+		<a ui-sref="newlist">新上架</a>
+		<a ui-sref="newslist" id="in">资讯</a>
+		<a ui-sref="newwlk" >新开服</a>
+	</div>
+	<div class="game-news">
+		<ul>
+			<li ng-repeat="item in newslist" ui-sref="article({id:item.newsId})">
+				<span class="newsclassify active" ng-bind="item.newsType"></span>
+				<span class="newstitle" ng-bind="item.newsTit"></span>
+				<span class="newstime" ng-bind="item.newsTime"></span>
+			</li>
+		</ul>
+	</div>
+</section>
+<!--游戏推荐列表结束-->

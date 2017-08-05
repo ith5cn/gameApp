@@ -1,0 +1,10 @@
+<main>
+	<div class="gamelist" ng-controller="myselfgameCtrl">
+		<h3>最近玩的</h3>
+		<div class="list" ng-repeat="item in list">
+			<img ng-src="{{item.gameIcon}}" class="gameicon">
+			<span class="gamelistname" ng-bind="item.gameName"></span>
+			<a href="#" class="gamein">进入</a>
+		</div>
+	</div>
+</main>

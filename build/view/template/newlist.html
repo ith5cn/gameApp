@@ -1,0 +1,21 @@
+<!--游戏推荐列表开始-->
+<section class="game-list">
+	<div class="game-sub">
+		<a ui-sref="hotlist">热门</a>
+		<a id="in">新上架</a>
+		<a ui-sref="newslist">资讯</a>
+		<a ui-sref="newwlk" >新开服</a>
+	</div>
+	<div class="game-new">
+		<ul>
+			<li ng-repeat="item in newlist" ui-sref="gameconnews({id:item.gameId})">
+				<img src="../image/7.png" id="newicon">
+				<img ng-src="{{item.gameIcon}}" class="game-list-icon">
+				<p class="game-new-gamename" ng-bind="item.gameName"><span>独家</span><span>礼包</span></p>
+				<p class="game-new-des" ng-bind="item.gameDespH">梦幻修仙梦幻修仙梦幻修仙梦幻修仙梦幻修仙</p>
+				<a class="startgame">进入</a>
+			</li>
+		</ul>
+	</div>
+</section>
+<!--游戏推荐列表结束-->

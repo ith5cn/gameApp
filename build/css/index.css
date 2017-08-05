@@ -1,0 +1,909 @@
+header div.user {
+  padding: 0.231481rem 0.435185rem;
+  background: #fff;
+}
+header div.user .user-msg {
+  float: left;
+  width: 4.62963rem;
+}
+header div.user .user-msg .user-img {
+  width: 0.990741rem;
+  height: 0.990741rem;
+  display: block;
+  border-radius: 50%;
+  float: left;
+}
+header div.user .user-msg .user-name {
+  font-size: 0.277778rem;
+  margin-left: 1.164815rem;
+  margin-top: 0.046296rem;
+}
+header div.user .user-msg .user-fen {
+  font-size: 0.277778rem;
+  margin-left: 1.164815rem;
+  margin-top: 0.046296rem;
+}
+header div.user .user-server {
+  float: right;
+  width: 3.888889rem;
+}
+header div.user:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+header div.user .user-server a.user-agreement {
+  width: 1.712963rem;
+  height: 0.694444rem;
+  border-radius: 0.092593rem;
+  text-align: center;
+  line-height: 0.694444rem;
+  border: 1px solid #999;
+  color: #999;
+  display: inline-block;
+  font-size: 0.277778rem;
+  margin-top: 0.046296rem;
+}
+header div.user .user-server a.user-sign {
+  width: 1.712963rem;
+  height: 0.694444rem;
+  border-radius: 0.092593rem;
+  text-align: center;
+  line-height: 0.694444rem;
+  border: 1px solid #00A2FF;
+  color: #00A2FF;
+  display: inline-block;
+  font-size: 0.277778rem;
+  margin-top: 0.046296rem;
+}
+.history .history-title {
+  height: 0.740741rem;
+  color: #AAA;
+  line-height: 0.740741rem;
+  padding-left: 0.416667rem;
+  font-size: 0.324074rem;
+}
+.history .history-con {
+  background-color: #fff;
+  padding: 0.277778rem;
+}
+.history .history-con a {
+  width: 1.574074rem;
+  height: 1.851852rem;
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+}
+.history .history-con a img.game-icon {
+  width: 1.388889rem;
+  height: 1.388889rem;
+  border-radius: 0.092593rem;
+}
+.history .history-con a p {
+  text-align: center;
+  width: 1.574074rem;
+  text-overflow: hidden;
+}
+.history .history-con #history-content {
+  background-color: #fff;
+  overflow: hidden;
+}
+.classify {
+  background: #fff;
+  margin-top: 0.231481rem;
+}
+.classify .classify-title {
+  height: 0.740741rem;
+  line-height: 0.740741rem;
+  padding: 0.37037rem;
+  font-size: 0.416667rem;
+}
+.classify .classify-con {
+  width: 120%;
+}
+.classify .classify-con:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.classify .classify-con a {
+  display: inline-block;
+  border-right: 1px solid #e8e8e8;
+  border-top: 1px solid #e8e8e8;
+  float: left;
+  padding: 0.277778rem 0.833333rem;
+  text-decoration: none;
+  color: #333;
+  font-size: 0.277778rem;
+}
+.classify .classify-con a .classify-icon {
+  width: 1.666667rem;
+  height: 1.666667rem;
+  border-radius: 0.092593rem;
+}
+.classify .classify-con a p {
+  width: 100%;
+  text-align: center;
+  height: 0.462963rem;
+  line-height: 0.462963rem;
+}
+.game-list .game-sub {
+  background: #fff;
+  height: 1.064815rem;
+  margin-top: 0.231481rem;
+}
+.game-list .game-sub a {
+  width: 25%;
+  height: 1.064815rem;
+  line-height: 1.064815rem;
+  border-top: 1px solid #EEE;
+  border-bottom: 1px solid #eee;
+  color: #36353A;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  float: left;
+}
+.game-list a#in {
+  background: #000;
+  color: #fff;
+}
+.game-hot {
+  background-color: #fff;
+}
+.game-hot ul li:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.game-hot ul li {
+  padding: 0.324074rem;
+  border-bottom: 1px solid #eee;
+}
+.game-hot ul li img.game-list-icon {
+  width: 1.388889rem;
+  height: 1.388889rem;
+  border-radius: 0.092593rem;
+  display: inline-block;
+  float: left;
+}
+.game-hot ul li p.game-hot-gamename {
+  width: 5.37037rem;
+  margin-left: 0.277778rem;
+  font-size: 0.416667rem;
+  font-weight: 800;
+  float: left;
+}
+.game-hot ul li p.game-hot-gamename span {
+  width: 0.740741rem;
+  height: 0.462963rem;
+  line-height: 0.462963rem;
+  text-align: center;
+  background: #4DD89F;
+  color: #fff;
+  display: inline-block;
+  margin-left: 0.092593rem;
+  font-size: 0.277778rem;
+  border-radius: 0.055556rem;
+  font-weight: 0;
+}
+.game-hot ul li p.game-hot-des {
+  width: 5.37037rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 0.277778rem;
+  overflow: hidden;
+  font-size: 0.324074rem;
+  color: #aaa;
+  float: left;
+}
+.game-hot ul li a.startgame {
+  display: inline-block;
+  width: 1.314815rem;
+  height: 0.666667rem;
+  line-height: 0.666667rem;
+  text-align: center;
+  color: #00A2FF;
+  border: 2px solid #00A2FF;
+  float: right;
+  margin-top: -0.231481rem;
+  border-radius: 0.046296rem;
+}
+/*新上架列表样式开始*/
+.game-new {
+  background-color: #fff;
+}
+.game-new ul li:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.game-new ul li {
+  padding: 0.324074rem;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+.game-new ul li img#newicon {
+  position: absolute;
+  left: 0.46rem;
+  top: 0.324074rem;
+}
+.game-new ul li img.game-list-icon {
+  width: 1.388889rem;
+  height: 1.388889rem;
+  border-radius: 0.092593rem;
+  display: inline-block;
+  float: left;
+}
+.game-new ul li p.game-new-gamename {
+  width: 5.37037rem;
+  margin-left: 0.277778rem;
+  font-size: 0.416667rem;
+  font-weight: 800;
+  float: left;
+}
+.game-new ul li p.game-new-gamename span {
+  width: 0.740741rem;
+  height: 0.462963rem;
+  line-height: 0.462963rem;
+  text-align: center;
+  background: #4DD89F;
+  color: #fff;
+  display: inline-block;
+  margin-left: 0.092593rem;
+  font-size: 0.277778rem;
+  border-radius: 0.055556rem;
+  font-weight: 0;
+}
+.game-new ul li p.game-new-des {
+  width: 5.37037rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 0.277778rem;
+  overflow: hidden;
+  font-size: 0.324074rem;
+  color: #aaa;
+  float: left;
+}
+.game-new ul li a.startgame {
+  display: inline-block;
+  width: 1.314815rem;
+  height: 0.666667rem;
+  line-height: 0.666667rem;
+  text-align: center;
+  color: #00A2FF;
+  border: 2px solid #00A2FF;
+  float: right;
+  margin-top: -0.231481rem;
+  border-radius: 0.046296rem;
+}
+/*新上架列表样式结束*/
+/*资讯列表样式开始*/
+.game-news {
+  background-color: #fff;
+}
+.game-news ul li:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.game-news ul li {
+  padding: 0.324074rem;
+  border-bottom: 1px solid #eee;
+  position: relative;
+  border-bottom: 1px solid #EDEDED;
+}
+.game-news ul li .newsclassify {
+  float: left;
+}
+.game-news ul li .active {
+  display: inline-block;
+  padding: 0.064815rem;
+  background-color: #4DD89F;
+  color: #fff;
+  line-height: 0.314815rem;
+  text-align: center;
+  font-size: 0.148148rem;
+  border-radius: 0.055556rem;
+}
+.game-news ul li .newstitle {
+  font-size: 0.277778rem;
+  margin-left: 0.185185rem;
+}
+.game-news ul li .newstime {
+  float: right;
+}
+/*资讯列表样式结束*/
+/*新开服列表样式开始*/
+.game-wlk {
+  background-color: #fff;
+}
+.game-wlk ul li:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.game-wlk ul li {
+  padding: 0.324074rem;
+  border-bottom: 1px solid #eee;
+}
+.game-wlk ul li img.game-list-icon {
+  width: 1.388889rem;
+  height: 1.388889rem;
+  border-radius: 0.092593rem;
+  display: inline-block;
+  float: left;
+}
+.game-wlk ul li p.game-wlk-gamename {
+  width: 5.37037rem;
+  margin-left: 0.277778rem;
+  font-size: 0.416667rem;
+  font-weight: 800;
+  float: left;
+}
+.game-wlk ul li p.game-wlk-gamename span {
+  width: 0.740741rem;
+  height: 0.462963rem;
+  line-height: 0.462963rem;
+  text-align: center;
+  background: #4DD89F;
+  color: #fff;
+  display: inline-block;
+  margin-left: 0.092593rem;
+  font-size: 0.277778rem;
+  border-radius: 0.055556rem;
+  font-weight: 0;
+}
+.game-wlk ul li p.game-wlk-des {
+  width: 3.37037rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 0.277778rem;
+  overflow: hidden;
+  font-size: 0.324074rem;
+  color: #aaa;
+  float: left;
+}
+.game-wlk ul li p.game-wlk-time {
+  display: inline-block;
+  width: 1.8rem;
+  height: 0.666667rem;
+  line-height: 0.666667rem;
+  text-align: center;
+  float: left;
+  margin-top: -0.231481rem;
+}
+.game-wlk ul li a.startgame {
+  display: inline-block;
+  width: 1.314815rem;
+  height: 0.666667rem;
+  line-height: 0.666667rem;
+  text-align: center;
+  color: #00A2FF;
+  border: 2px solid #00A2FF;
+  float: right;
+  margin-top: -0.231481rem;
+  border-radius: 0.046296rem;
+}
+/*新开服列表样式结束*/
+.giftlist {
+  background: #fff;
+  margin-top: 0.277778rem;
+  margin-bottom: 15%;
+}
+.giftsearch {
+  padding: 0.509259rem 0.388889rem;
+  background: #fff;
+  width: 100%;
+}
+.giftsearch:after {
+  content: '';
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+#gameinput {
+  width: 7.814815rem;
+  height: 1.157407rem;
+  line-height: 1.157407rem;
+  background: #F2F2F2;
+  border: none;
+  font-size: 0.416667rem;
+  float: left;
+}
+#gamebtn {
+  width: 1.407407rem;
+  height: 1.157407rem;
+  line-height: 1.157407rem;
+  background-color: #FFD200;
+  border: none;
+  float: left;
+  font-size: 0.416667rem;
+}
+.giftlist .gamegift {
+  padding: 0.388889rem;
+  border-bottom: 2px solid #EBEBEB;
+}
+.giftlist .gamegift:after {
+  clear: both;
+  content: '';
+  overflow: hidden;
+  display: block;
+}
+.giftlist .gamegift img.game-icon {
+  width: 2.731481rem;
+  height: 2.731481rem;
+  float: left;
+}
+.giftlist .gamegift .gamegiftdesp {
+  width: 4.351852rem;
+  height: 1.944444rem;
+  float: left;
+  margin-left: 0.277778rem;
+  margin-top: 0.675926rem;
+  line-height: 0.6rem;
+}
+.giftlist .gamegift .gamegiftdesp .gamename {
+  font-size: 0.416667rem;
+  color: #212121;
+}
+.giftlist .gamegift .gamegiftdesp .gamegiftname {
+  font-size: 0.296296rem;
+  color: #757575;
+}
+.giftlist .gamegift .getgamegift {
+  font-size: 0.36rem;
+  text-align: center;
+  color: #F88630;
+  border-radius: 0.092593rem;
+  padding: 0.166667rem;
+  display: block;
+  float: right;
+  border: 2px solid #f88630;
+  margin-top: 0.972222rem;
+  width: 1.388889rem;
+}
+.myselfheader {
+  height: 2.87037rem;
+  background-color: #FD8402;
+  padding-top: 0.537037rem;
+}
+.myselfheader .userimg {
+  width: 0.925926rem;
+  height: 0.925926rem;
+  border: 2px solid #fff;
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%;
+}
+.myselfheader .username {
+  text-align: center;
+  color: #fff;
+  margin-top: 0.185185rem;
+}
+main .gamelist {
+  margin-top: 0.277778rem;
+  background-color: #fff;
+}
+main .gamelist h3 {
+  font-size: 0.37037rem;
+  margin-left: 0.277778rem;
+}
+main .gamelist .list {
+  padding: 0.277778rem;
+  border-bottom: 1px solid #EEEEEE;
+}
+main .gamelist .list:after {
+  content: '';
+  overflow: hidden;
+  visibility: hidden;
+  display: block;
+  clear: both;
+}
+main .gamelist .gameicon {
+  width: 0.925926rem;
+  height: 0.925926rem;
+  border-radius: 0.138889rem;
+  float: left;
+}
+main .gamelist .gamelistname {
+  float: left;
+  margin-left: 0.277778rem;
+  font-size: 0.37037rem;
+  font-weight: 800;
+}
+main .gamelist .gamein {
+  float: right;
+  width: 0.87963rem;
+  height: 0.37037rem;
+  line-height: 0.37037rem;
+  color: #FD8402;
+  display: block;
+  border: 2px solid #FD8402;
+  text-align: center;
+  border-radius: 0.092593rem;
+  margin-top: 0.185185rem;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+header .top .back {
+  font-size: 0.555556rem;
+  height: 1.296296rem;
+  line-height: 1.296296rem;
+  margin-left: 0.185185rem;
+  color: #fff;
+}
+header.connews {
+  position: relative;
+}
+header.connews .top {
+  height: 1.296296rem;
+  width: 100%;
+  background: #f88630;
+  position: fixed;
+  z-index: 999;
+}
+header.connews .top .share {
+  font-size: 0.555556rem;
+  height: 1.296296rem;
+  line-height: 1.296296rem;
+  margin-right: 0.185185rem;
+  color: #fff;
+}
+header.connews .bgcon {
+  width: 100%;
+  vertical-align: middle;
+  position: relative;
+  top: 0;
+  height: 2.685185rem;
+  margin-top: 13%;
+}
+header.connews .gamedes {
+  background: #fff;
+  height: 2.5rem;
+  position: relative;
+}
+header.connews .gamedes .congameicon {
+  position: absolute;
+  width: 1.388889rem;
+  height: 1.388889rem;
+  top: -20%;
+  left: 43%;
+}
+header.connews .gamedes h2 {
+  position: absolute;
+  top: 1.111111rem;
+  text-align: center;
+  width: 100%;
+  font-size: 0.416667rem;
+}
+header.connews .gamedes p {
+  position: absolute;
+  top: 1.851852rem;
+  text-align: center;
+  width: 100%;
+}
+.showbigimg {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  display: none;
+  left: 0;
+}
+.gamepro {
+  height: 2.777778rem;
+  background: #fff;
+  overflow: hidden;
+  padding: 0.185185rem;
+}
+.news {
+  padding: 0.277778rem 0;
+  margin-top: 0.157407rem;
+  background: #fff;
+  margin-bottom: 10%;
+}
+.news .news-title {
+  width: 102%;
+  height: 1rem;
+  line-height: 1rem;
+  border-bottom: 1px solid #333;
+}
+.news .news-title a {
+  display: inline-block;
+  height: 1rem;
+  font-size: 0.4rem;
+  width: 50%;
+  text-align: center;
+  color: #333;
+}
+.news .news-list ul li a {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding: 0 0.407407rem;
+  display: block;
+  color: #333;
+  line-height: 1.2rem;
+  height: 1.2rem;
+  font-size: 0.388889rem;
+  border-bottom: 1px solid #888;
+}
+.news .news-list ul li a span.newsclassify {
+  margin-right: 0.185185rem;
+  display: inline-block;
+  width: 1.111111rem;
+  height: 0.555556rem;
+  line-height: 0.555556rem;
+  text-align: center;
+  background: #F88630;
+  color: #fff;
+  border-radius: 0.092593rem;
+  float: left;
+  margin-top: 0.324074rem;
+  font-size: 0.32rem;
+}
+.news .news-list ul li a span.newslisttitle {
+  width: 70%;
+  text-overflow: ellipsis;
+  display: inline-block;
+  float: left;
+  margin-left: 0.277778rem;
+  overflow: hidden;
+  font-size: 0.35rem;
+}
+#gameconactive {
+  border-bottom: 0.092593rem solid #F88630;
+}
+.gameconfooter {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #fff;
+  padding: 0.185185rem 0rem;
+}
+.gameconfooter .intogame {
+  width: 5.555556rem;
+  height: 0.648148rem;
+  line-height: 0.648148rem;
+  background-color: #F57B28;
+  border-radius: 0.092593rem;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+  font-size: 0.4rem;
+}
+.gameconfooter .intogameicon {
+  font-size: 0.4rem;
+  margin-right: 0.231481rem;
+}
+main .gamegiftcon {
+  padding: 0.583333rem 0.388889rem;
+  background: #fff;
+  margin-top: 0.277778rem;
+}
+main .gamegiftcon:after {
+  content: '';
+  clear: both;
+  overflow: hidden;
+  display: block;
+  visibility: hidden;
+}
+main .gamegiftcon .game-icon {
+  width: 3.657407rem;
+  height: 3.657407rem;
+  float: left;
+}
+main .gamegiftcon .gamegiftcondesp {
+  width: 4.62963rem;
+  height: 2.824074rem;
+  float: left;
+  margin-left: 0.277778rem;
+  margin-top: 0.740741rem;
+}
+main .gamegiftcon .gamegiftcondesp h3 {
+  font-size: 0.5rem;
+  line-height: 0.740741rem;
+}
+main .gamegiftcon .gamegiftcondesp p {
+  line-height: 0.555556rem;
+  font-size: 0.38rem;
+}
+main .gamegiftcon .getgift {
+  color: #fff;
+  display: block;
+  width: 100%;
+  height: 1.111111rem;
+  line-height: 1.111111rem;
+  background-color: #FD8402;
+  text-align: center;
+  border-radius: 0.138889rem;
+  margin-top: 0.277778rem;
+  font-size: 0.37037rem;
+}
+main .gamegiftcon .gamegift-con {
+  margin-top: 0.277778rem;
+}
+main .gamegiftcon .gamegift-con h3 {
+  font-size: 0.4rem;
+  color: #FF5C00;
+}
+main .gamegiftcon .gamegift-con p {
+  max-height: 1.388889rem;
+  font-size: 0.35rem;
+  line-height: 0.740741rem;
+  color: #666666;
+}
+main.newscon {
+  padding: 0.222222rem;
+  padding-top: 17%;
+  background: #fff;
+  margin-bottom: 20%;
+}
+main.newscon h1 {
+  color: #333;
+}
+main.newscon .articletime {
+  margin: 0.37037rem 0rem;
+  display: block;
+  color: #BDBDBD;
+}
+footer.articlefooter {
+  position: fixed;
+  bottom: 0;
+  padding: 0.185185rem;
+}
+footer.articlefooter .gamicon {
+  width: 0.925926rem;
+  height: 0.925926rem;
+  margin-top: 2%;
+  border-radius: 0.185185rem;
+}
+footer.articlefooter p {
+  margin-top: 0.185185rem;
+  margin-left: 0.185185rem;
+  line-height: 0.37037rem;
+}
+footer.articlefooter .open {
+  padding: .1rem .5rem;
+  border: 1px solid #F67D2A;
+  color: #F67D2A;
+  border-radius: 0.111111rem;
+  text-align: center;
+  line-height: 0.462963rem;
+  margin-top: 0.277778rem;
+  margin-right: 0.37037rem;
+  font-size: 0.324074rem;
+}
+.gift {
+  padding: 0.277778rem 0;
+  margin-top: 0.157407rem;
+  background: #fff;
+  margin-bottom: 10%;
+}
+.gift .gifttitle {
+  width: 102%;
+  height: 1rem;
+  line-height: 1rem;
+  border-bottom: 1px solid #333;
+}
+.gift .gifttitle a {
+  display: inline-block;
+  height: 1rem;
+  font-size: 0.4rem;
+  width: 50%;
+  text-align: center;
+  color: #333;
+}
+.giftcon2 .gift-list {
+  border-bottom: 2px solid #F1F1F1;
+  padding-bottom: 0.185185rem;
+}
+.giftcon2 .gift-list .gift-title {
+  padding: 0.37037rem 0.416667rem;
+  padding-bottom: 0rem;
+}
+.giftcon2 .gift-list .gift-title:after {
+  display: block;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+  content: '';
+}
+.giftcon2 .gift-list .gift-title .title {
+  font-size: 0.3rem;
+  float: left;
+  color: #333;
+}
+.giftcon2 .gift-list .gift-title a.receive {
+  display: block;
+  padding: 0.068rem 0.5rem;
+  color: #fff;
+  background: #FC7217;
+  float: right;
+  border-radius: 0.58889rem;
+  font-size: 0.316667rem;
+}
+.giftcon2 .gift-list .gift-con {
+  color: #999;
+  font-size: 0.24rem;
+  line-height: 0.462963rem;
+  padding: 0.092593rem 0.37037rem;
+  max-height: 1.2rem;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.giftcon2 .end {
+  text-align: center;
+}
+footer {
+  background-color: #F8F8F8;
+  height: 1.4rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+  text-decoration: none;
+  color: #ABABAB;
+  text-align: center;
+  width: 33%;
+  display: inline-block;
+  float: left;
+}
+footer a .gameiconbtn {
+  font-size: 0.8rem;
+}
+#footerbtn {
+  color: #F88630;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+body {
+  background-color: #F1F0F6;
+  font-family: 'Microsoft YaHei';
+  font-size: 0.277778rem;
+  overflow-x: hidden;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+/*字体引入*/
+@font-face {
+  font-family: 'iconfont';
+  src: url('iconfont.eot');
+  src: url('iconfont.eot?#iefix') format('embedded-opentype'), url('iconfont.woff') format('woff'), url('iconfont.ttf') format('truetype'), url('iconfont.svg#iconfont') format('svg');
+}
+/*字体引入结束*/
+/*字体的基本样式开始*/
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.001852rem;
+  -moz-osx-font-smoothing: grayscale;
+}
+/*字体的基本样式结束*/
+a {
+  text-decoration: none;
+}
+.game-list {
+  margin-bottom: 14%;
+}

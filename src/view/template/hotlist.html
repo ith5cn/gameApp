@@ -1,0 +1,20 @@
+<!--游戏推荐列表开始-->
+<section class="game-list">
+	<div class="game-sub">
+		<a id="in">热门</a>
+		<a ui-sref="newlist">新上架</a>
+		<a ui-sref="newslist">资讯</a>
+		<a ui-sref="newwlk" >新开服</a>
+	</div>
+	<div class="game-hot">
+		<ul>
+			<li ng-repeat="item in hotlist" ui-sref="gameconnews({id:item.gameId})">
+				<img ng-src="{{item.gameIcon}}" class="game-list-icon">
+				<p class="game-hot-gamename" ng-bind="item.gameName"><span>独家</span><span>礼包</span></p>
+				<p class="game-hot-des" ng-bind="item.gameDespH"></p>
+				<a class="startgame" ui-sref>进入</a>
+			</li>
+		</ul>
+	</div>
+</section>
+<!--游戏推荐列表结束-->
